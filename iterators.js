@@ -24,6 +24,12 @@ const obj = {
 	}
 };
 
-for (let item of obj) {
-	console.log(item);
-}
+itr2 = obj[Symbol.iterator]();
+console.log(itr2.next());
+console.log(itr2.next());
+console.log(itr2.next());
+console.log(itr2.next());
+console.log(itr2.next());
+// for (let item of obj) {
+// 	console.log(item);
+// }
