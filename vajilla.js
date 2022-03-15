@@ -12,14 +12,11 @@ const pasosLavadoVajilla = [
 ];
 
 const lavar = pasosLavadoVajilla[Symbol.iterator]();
-// console.log(lavar.next());
-// console.log(lavar.next());
-// console.log(lavar.next());
-// console.log(lavar.next());
+console.log(lavar.next());
+console.log(lavar.next());
+console.log(lavar.next());
+console.log(lavar.next());
 
-// for (let p of lavar) {
-// 	console.log(p);
-// }
-
-
-console.log(...lavar);
+for (let p of lavar) {
+	console.log(p);
+}
